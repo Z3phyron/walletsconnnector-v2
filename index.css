@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css2?family=Nunito:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: rgb(31, 48, 63);
+  padding: 30px;
+}
+
+header {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    color: #fff;
+}
+
+header .heading {
+    font-size: 30pt;
+}
+
+p {
+    font-size: 16px;
+}
+
+main {
+ width: 70%;
+ margin: 10vh auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+main .wallets{
+
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.wallets-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    min-width: 30%;
+    border: 2px solid rgba(116, 114, 114, 0.482);
+    transition: .5s;
+}
+
+.wallets-item:hover {
+    background: rgba(116, 114, 114, 0.482);
+}
+
+img {
+    width: 30px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+@media (max-width: 500px) {
+    body {
+        padding: 20px;
+      }
+      
+      header {
+
+          width: 100%;
+
+      }
+      
+      header .heading {
+          font-size: 20pt;
+      }
+      
+      p {
+          font-size: 13px;
+      }
+
+      
+main {
+    width: 90%;
+    margin: 5vh auto;
+       padding: 5px;
+   }
+
+
+.wallets-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 15px;
+    border-radius: 8px;
+    padding: 5px 10px;
+    min-width: 90%;
+    border: 2px solid rgba(116, 114, 114, 0.482);
+    transition: .5s;
+}
+
+.wallets-item:hover {
+    background: rgba(116, 114, 114, 0.482);
+}
+
+img {
+    width: 30px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+
+}
+
+
